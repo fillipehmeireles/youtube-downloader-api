@@ -1,3 +1,10 @@
+# Youtube Downloader API
+
+Usage:
+- Download song: http://localhost:5000/download-music   -> JSON: {'video-url':'url...'}
+- Download video: http://localhost:5000/download-video   -> JSON: {'video-url':'url...'}
+
+<code> Songs are converted to .mp3. </code>
 <table>
     <thead>
         <th> Endpoint </th>
